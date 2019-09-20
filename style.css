@@ -1,0 +1,176 @@
+@import url(../fonts/fonts.css);
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-style: normal; 
+  text-align: center;
+}
+
+.remark-slide-content h1 { font-size: 3em; }
+
+.remark-slide-content h2 { font-size: 2em; }
+
+.remark-slide-content h3 { font-size: 1.6em; }
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+}
+
+
+ul {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul li .fa {
+  color: #888;
+  margin-right: 1em;
+}
+
+li {
+  line-height: 1.5em;
+  list-style-type: none;
+}
+
+li p { line-height: 1.25em; }
+
+.red { color: #fa0000; }
+
+.large { font-size: 2em; }
+
+a, a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+
+code {
+  background: none repeat scroll 0 0 #F8F8FF;
+  border: 1px solid #DEDEDE;
+  border-radius: 3px;
+  padding: 0 0.2em;
+  font-family: "Cutive Mono";
+
+}
+
+blockquote {
+  background-color: #EBE6D2;
+  padding: 0.1em 1em;
+  border-radius: 5px;
+  color: #339;
+  font-weight: 300;
+  font-size: 1.5em;
+  font-family: "Alegreya";
+}
+
+blockquote p {
+}
+
+.remark-slide p {
+  text-align: center !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+code {
+  color: #111;
+}
+
+.remark-code, .remark-inline-code { font-family: "Bitstream Vera Sans Mono", "Courier", monospace; }
+
+.remark-code-line-highlighted     { background-color: #373832; }
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+.pull-right ~ p {
+  clear: both;
+}
+
+#slideshow .slide .content code {
+  font-size: 0.8em;
+}
+
+#slideshow .slide .content pre code {
+  font-size: 0.9em;
+  padding: 15px;
+}
+
+.main-title, .title {
+  background: #272822;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+
+.title h1, .title h2, .main-title h1, .main-title h2 {
+  color: #222;
+  line-height: 0.8em;
+}
+
+/* Custom */
+.remark-code {
+  display: block;
+  padding: 1em !important;
+}
+
+.remark-slide-scaler {
+  box-shadow: none !important;
+  background:
+}
+
+.remark-slides-area {
+  background-image: url(img/bg.png) !important;
+}
+
+.remark-slide-container {
+  /* background-color: #eaeaea; */
+  /*background-image: url(img/bzzt-logo-wordmark.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: 5% 95%;*/
+
+  background-image: url(img/bg.png) !important;
+}
+
+.remark-slide-content {
+  background: transparent !important;
+}
+
+.logo {
+  width: 300px;
+}
+
+video {
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+
+img[alt="A decentralized network"] { width: 300px; }
+img[alt="Bugout box screencast"] { width: 600px; }
+img[alt="Copy icon"] { width: 150px; }
+img[alt="Lock icon"] { width: 150px; }
