@@ -55,7 +55,7 @@ li p { line-height: 1.25em; }
 .large { font-size: 2em; }
 
 a, a > code {
-  color: rgb(249, 38, 114);
+  color: #e81c4f;
   text-decoration: none;
 }
 
