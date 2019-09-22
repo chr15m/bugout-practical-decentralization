@@ -1,0 +1,3 @@
+#!/bin/sh
+
+grep -oE 'resources/[0-9a-f]+[^\)]*?' README.md
